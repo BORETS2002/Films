@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("/fonts/NetflixSans-Light.woff2") format("woff2"),
+    url("/fonts/NetflixSans-Medium.otf") format("otf");
+}
+
+.body-site{
+background: #000;
+font-family: "Netflix Sans";
+
+}
+.films{
+  
+  color: red;
+  text-align: center;
+  margin-top: 113px;
+}
+.itms{
+  background-image: linear-gradient(to right top, #410000, #b80101, #c20a0a, #e0150e, #ffc2c2);
+  color: aliceblue;
+width: 260px !important;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 15px;
+padding:15px;
+/* margin: 10px 10px 10px 0; */
+border-radius: 20px;
+border: 2px solid rgb(59, 202, 2);
+}
+.name{
+  margin: 0;
+  margin-bottom: 10px;
+}
+.text-year{
+margin-bottom: 12px;
+}
